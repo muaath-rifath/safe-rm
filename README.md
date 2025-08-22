@@ -25,13 +25,12 @@ Yes   No
 
 ## Installation
 
-Copy the contents of `safe-rm-zsh.sh` and paste it at the end of your `~/.zshrc` file, then add:
+1. Copy the contents of `safe-rm-zsh.sh` and paste it at the end of your `~/.zshrc` file
 
+2. Reload your configuration:
 ```bash
-alias rm=safe_rm
+source ~/.zshrc
 ```
-
-Reload your configuration: `source ~/.zshrc`
 
 ## Testing the Installation
 

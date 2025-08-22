@@ -72,3 +72,6 @@ safe_rm() {
   # Execute normal rm if no home directory deletion detected
   command rm "$@"
 }
+
+# Set up the alias
+alias rm=safe_rm
